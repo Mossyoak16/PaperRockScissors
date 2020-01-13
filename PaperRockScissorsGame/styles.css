@@ -1,0 +1,63 @@
+body {
+    margin-top: 0 auto;
+
+    color: #ffffff;
+    text-align: center;
+}
+
+header {
+    margin-top: 0;
+    background-color: green;
+    height: 20vh;
+}
+
+h1 {
+    margin: 0;
+}
+
+.main-container {
+    margin-bottom: 0;
+}
+
+.instructions {
+    height: 73vh;
+    background-image: url("https://www.pngitem.com/pimgs/m/266-2667284_rock-paper-scissors-diagram-hd-png-download.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.game-container {
+    background-color: black;
+    height: 100vh;
+    background-image: url("https://steemitimages.com/p/MG5aEqKFcQi6mbT8bT7JeZ5NYo9b18BFKbkKrUSxNjBUkDBjqUXTg8jb7hRCFsZ1AY7jw5SKtpe1UjXPzE4AeQeeN5fy9gBDp?format=match&mode=fit&width=640");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.button-container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.circle {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    background-color: darkgrey;
+    margin: 20px;
+    border-radius: 50%;
+    align-items: center;
+}
+
+.game-results {
+
+}
+
+footer {
+    background-color: green;
+    height: 3vh;
+    text-align: left;
+}
